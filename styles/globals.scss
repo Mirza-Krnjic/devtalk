@@ -22,7 +22,7 @@ body {
     //   #01b18e,
     //   #32b37b
     // );
-    background: #5336f8;
+    background: #0f172a;
     // background-image: url("../public/bg.jpg");
 
     position: fixed;
@@ -33,6 +33,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+#text {
+  color: white;
+  background-color: red;
 }
 
 .text-shadow {

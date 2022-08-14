@@ -7,9 +7,9 @@ import { getPosts } from "../services"
 
 const Home = ({ posts }: any) => {
   return (
-    <div className="container mx-auto px-10 pb-8">
+    <div className="px-4 container mx-auto lg:px-10 pb-8">
       <Head>
-        <title>Devtalk blog</title>
+        <title>Devtalk</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
